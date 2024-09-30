@@ -32,7 +32,7 @@ For my deep dive into the data analyst job market, I harnessed the power of seve
 # Understanding the structure of the data
 This section outlines the steps taken to understand the content inside the data. This step also prep the data for analysis, ensuring accuracy and usability.
 
-Let's start by importing the data, and viewing the structure of the data. Feel free to access my notebook with detailed steps here: [Exploratory](3_Project\1_EDA_intro.ipynb).
+Let's start by importing the data, and viewing the structure of the data. Feel free to access my notebook with detailed steps here: [Exploratory](3_Project/1_EDA_intro.ipynb).
 
 ```python
 import pandas as pd
@@ -80,7 +80,7 @@ Other aspects of the data are:
 Each Jupyter notebook for this project aimed at investigating specific aspects of the data job market. Here’s how I approached each question:
 
 ## 1. Where are tech jobs being offered? 
-[code here](3_Project\1_EDA_intro.ipynb)
+[code here](3_Project/1_EDA_intro.ipynb)
 
 
 As a young professional, I recognize the importance of positioning myself in areas that offer ample resources for growth. One interesting aspect I explored is which states have the highest recruitment for data jobs.
@@ -112,7 +112,7 @@ plt.show()
 Fig. 1 shows the distribution of job postings across various U.S. cities, with New York, NY, Atlanta, GA, and Chicago, IL leading as the top three cities with the highest number of job postings. However, focusing on Texas, it stands out as a key technology hub, with cities like Dallas, Austin, and Irving each appearing prominently on the list. Collectively, these Texas cities highlight a significant concentration of data job opportunities, reinforcing Texas's growing reputation as a competitive hub for technology and data-driven roles. This trend suggests a shift in the tech landscape, where Texas is becoming an attractive destination for both companies and talent within the tech industry.
 
 ## 2. What are the job roles that is earning above average across the most three popular skills?
-[code here](3_Project\2_Skill_Demand_&_3_Data_Roles.ipynb)
+[code here](3_Project/2_Skill_Demand_&_3_Data_Roles.ipynb)
 
 As previously mentioned, the three most popular skills in the data job market are SQL, Python, and AWS. Committing to mastering these skills will be a significant journey, and any journey should be approached with seriousness and dedication. 
 
@@ -181,7 +181,7 @@ The data reveals a clear career progression: data analysts can advance to more l
 Based on this insight, the ideal path for me would be to start as a data analyst, progress to data scientist, move on to senior data scientist, and eventually transition into a project manager role (data not shown here), where I can lead and oversee data-driven projects.
 
 ## 3. Diving deeper into jobs that earns the most, what are the most requested skils for those jobs?
-[code here](3_Project\2_Skill_Demand_&_3_Data_Roles.ipynb)
+[code here](3_Project/2_Skill_Demand_&_3_Data_Roles.ipynb)
 
 Next, I'll explore jobs that offer salaries above the average and examine the additional skills required for those roles. This analysis will help identify the key competencies that contribute to higher-paying positions, providing insight into the skill sets essential for advancing beyond the average salary range in data-related careers. 
 
@@ -264,7 +264,7 @@ fig.tight_layout()
 # Show the plot
 plt.show()
 ```
-![most desired skills](3_Project\Images\Desired_high_paying_skills.png)
+![most desired skills](3_Project/Images/Desired_high_paying_skills.png)
 
 *Fig.3 Chart shows the percentage of mentions for the most common skills required for high-paying data roles in the US.*
 
@@ -285,7 +285,7 @@ With a solid understanding of the skills and specializations needed for various 
 
 ## 4. Specifically for Senior Data Scientist, the highest skill ceiling, what is the pay distribution, and who is offering the outliers?
 
-[code here](3_Project\4_Senior_DS_pay.ipynb)
+[code here](3_Project/4_Senior_DS_pay.ipynb)
 
 
 
@@ -337,7 +337,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Salary Distribution](3_Project\Images\Salary_distribution_senior_data_scientist.png)
+![Salary Distribution](3_Project/Images/Salary_distribution_senior_data_scientist.png)
 
 *Fig. 4 Chart shows the salary distribution of Senior Data Scientist*
 
