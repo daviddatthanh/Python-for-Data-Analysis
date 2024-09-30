@@ -107,6 +107,7 @@ plt.show()
 ```
 
 ![Salary Distributions of Data Jobs in the US](3_Project/Images/Which_city_has_the_most_data_jobs.png)
+
 *Fig. 1 Bar chart visualizing job availability across different cities. Jobs postings with 'Anywhere' and 'United States' are obsoleted because of ambiguity.*
 
 Fig. 1 shows the distribution of job postings across various U.S. cities, with New York, NY, Atlanta, GA, and Chicago, IL leading as the top three cities with the highest number of job postings. However, focusing on Texas, it stands out as a key technology hub, with cities like Dallas, Austin, and Irving each appearing prominently on the list. Collectively, these Texas cities highlight a significant concentration of data job opportunities, reinforcing Texas's growing reputation as a competitive hub for technology and data-driven roles. This trend suggests a shift in the tech landscape, where Texas is becoming an attractive destination for both companies and talent within the tech industry.
