@@ -107,9 +107,9 @@ plt.show()
 ```
 
 ![Salary Distributions of Data Jobs in the US](3_Project/Images/Which_city_has_the_most_data_jobs.png)
-*Bar chart visualizing job availability across different cities. Jobs postings with 'Anywhere' and 'United States' are obsoleted because of ambiguity.*
+*Fig. 1 Bar chart visualizing job availability across different cities. Jobs postings with 'Anywhere' and 'United States' are obsoleted because of ambiguity.*
 
-The bar chart shows the distribution of job postings across various U.S. cities, with New York, NY, Atlanta, GA, and Chicago, IL leading as the top three cities with the highest number of job postings. However, focusing on Texas, it stands out as a key technology hub, with cities like Dallas, Austin, and Irving each appearing prominently on the list. Collectively, these Texas cities highlight a significant concentration of data job opportunities, reinforcing Texas's growing reputation as a competitive hub for technology and data-driven roles. This trend suggests a shift in the tech landscape, where Texas is becoming an attractive destination for both companies and talent within the tech industry.
+Fig. 1 shows the distribution of job postings across various U.S. cities, with New York, NY, Atlanta, GA, and Chicago, IL leading as the top three cities with the highest number of job postings. However, focusing on Texas, it stands out as a key technology hub, with cities like Dallas, Austin, and Irving each appearing prominently on the list. Collectively, these Texas cities highlight a significant concentration of data job opportunities, reinforcing Texas's growing reputation as a competitive hub for technology and data-driven roles. This trend suggests a shift in the tech landscape, where Texas is becoming an attractive destination for both companies and talent within the tech industry.
 
 ## 2. What are the job roles that is earning above average across the most three popular skills?
 [code here](3_Project\2_Skill_Demand_&_3_Data_Roles.ipynb)
@@ -171,9 +171,9 @@ plt.tight_layout()
 plt.show()
 ```
 ![job above below mean](3_Project/Images/job_above_below_mean.png)
-*The chart displays the most desired skills (SQL, Python, and AWS) in relation to job counts and their average salary.*
+* Fig.2 Chart displays the most desired skills (SQL, Python, and AWS) in relation to job counts and their average salary.*
 
-The chart highlights three essential skills—SQL, Python, and AWS—that are critical for many data-related jobs, and the good news is, these skills pay well. Although Python, the most versatile programming language, has a lower average salary compared to SQL and AWS, its salary range is less spread out, indicating more stability across different roles. Data analyst positions, while offering the highest number of jobs, tend to start with lower salaries around $90K.
+Fig. 2 highlights three essential skills—SQL, Python, and AWS—that are critical for many data-related jobs, and the good news is, these skills pay well. Although Python, the most versatile programming language, has a lower average salary compared to SQL and AWS, its salary range is less spread out, indicating more stability across different roles. Data analyst positions, while offering the highest number of jobs, tend to start with lower salaries around $90K.
 
 The data reveals a clear career progression: data analysts can advance to more lucrative positions like data scientists, where salaries jump significantly. The ultimate prestigious role is the senior data scientist, with earnings reaching up to $160K. Additionally, machine learning engineers are becoming another leading frontier, driven by high demand and competitive salaries.
 
@@ -264,9 +264,10 @@ fig.tight_layout()
 plt.show()
 ```
 ![most desired skills](3_Project\Images\Desired_high_paying_skills.png)
-*This chart shows the percentage of mentions for the most common skills required for high-paying data roles in the US.*
 
-The chart offers a comprehensive look at the skills needed for various data roles. It highlights the importance of a strong foundation in Python and SQL while also emphasizing the need for specialization in areas like data engineering and machine learning.
+*Fig.3 Chart shows the percentage of mentions for the most common skills required for high-paying data roles in the US.*
+
+Fig. 3 offers a comprehensive look at the skills needed for various data roles. It highlights the importance of a strong foundation in Python and SQL while also emphasizing the need for specialization in areas like data engineering and machine learning.
 
 For aspiring data professionals, this analysis suggests:
 
@@ -337,9 +338,9 @@ plt.show()
 
 ![Salary Distribution](3_Project\Images\Salary_distribution_senior_data_scientist.png)
 
-*This chart shows the percentage of mentions for the most common skills required for high-paying data roles in the US.*
+*Fig. 4 Chart shows the salary distribution of Senior Data Scientist*
 
-The figure above illustrates the salary distribution of senior data scientists in the US. The box plot and histogram both reveal a clear trend: salaries gradually increase toward the median, which stands at $155K. After reaching the median, there is a steep drop-off, indicating that most senior data scientists fall within a relatively narrow range around the median. The distribution is heavily skewed to the left, which is a typical pattern in salary distributions, where a few individuals earn significantly more than the majority.
+Fig. 4 illustrates the salary distribution of senior data scientists in the US. The box plot and histogram both reveal a clear trend: salaries gradually increase toward the median, which stands at $155K. After reaching the median, there is a steep drop-off, indicating that most senior data scientists fall within a relatively narrow range around the median. The distribution is heavily skewed to the left, which is a typical pattern in salary distributions, where a few individuals earn significantly more than the majority.
 
 This left-skewed distribution is further emphasized by the presence of substantial outliers on the higher end of the salary scale. Some senior data scientists earn well beyond $250K, with a few even approaching $500K. These outliers likely represent individuals in specialized or highly strategic roles, where their expertise is critical for the company’s data initiatives.
 
@@ -352,6 +353,8 @@ The next step in the analysis is to examine which companies are hiring these hig
 | TikTok               | 3         |
 | Capital One          | 2         |
 | Source Technology    | 2         |
+
+*Table 1. Table shows which companies is hiring offering outliers jobs.*
 
 These companies likely require at least one individual with such high compensation to oversee all major projects related to data, ensuring that the company’s data strategy aligns with its overall business objectives. This insight will help me understand where the highest-paying roles are concentrated and the strategic importance of these positions in the industry.
 
