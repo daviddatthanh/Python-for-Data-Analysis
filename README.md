@@ -171,7 +171,8 @@ plt.tight_layout()
 plt.show()
 ```
 ![job above below mean](3_Project/Images/job_above_below_mean.png)
-* Fig.2 Chart displays the most desired skills (SQL, Python, and AWS) in relation to job counts and their average salary.*
+
+*Fig.2 Chart displays the most desired skills (SQL, Python, and AWS) in relation to job counts and their average salary.*
 
 Fig. 2 highlights three essential skills—SQL, Python, and AWS—that are critical for many data-related jobs, and the good news is, these skills pay well. Although Python, the most versatile programming language, has a lower average salary compared to SQL and AWS, its salary range is less spread out, indicating more stability across different roles. Data analyst positions, while offering the highest number of jobs, tend to start with lower salaries around $90K.
 
